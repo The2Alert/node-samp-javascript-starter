@@ -1,0 +1,22 @@
+{
+  "name": "node-samp-javascript-starter",
+  "version": "1.0.0",
+  "description": "JavaScript starter for NodeSamp.",
+  "repository": "github:dev2alert/node-samp-javascript-starter",
+  "author": "dev2alert",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodesamp .",
+    "dev": "cross-env NODE_ENV=development nodemon --exec \"npx nodesamp .\""
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@sa-mp/cli": "1.x",
+    "@sa-mp/amx": "1.x",
+    "@sa-mp/core": "1.x",
+    "@sa-mp/decorators": "1.x"
+  }
+}

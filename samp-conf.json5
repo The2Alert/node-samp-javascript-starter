@@ -1,0 +1,8 @@
+{
+    hostName: "Node.js server",
+    webUrl: "github.com/dev2alert/node-samp",
+    gameModeText: "NodeSamp Starter",
+    port: 7777,
+    maxPlayers: 1000,
+    rconPassword: "qwerty123"
+}
